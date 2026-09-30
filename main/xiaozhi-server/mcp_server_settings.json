@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/username/Desktop",
+        "/path/to/other/allowed/dir"
+      ],
+      "link":"https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem"
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@executeautomation/playwright-mcp-server"],
+      "des" : "run 'npx playwright install' first",
+      "link": "https://github.com/executeautomation/mcp-playwright"
+    },
+    "windows-cli": {
+      "command": "npx",
+      "args": ["-y", "@simonb97/server-win-cli"],
+      "link": "https://github.com/SimonB97/win-cli-mcp-server"
+    }
+  }
+}
